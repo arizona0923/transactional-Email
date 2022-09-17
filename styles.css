@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+table{
+    border-spacing: 0;
+}
+td {
+    padding: 0;
+}
+img {
+    border: 0;
+}
+.blue {
+    color: #117ACA ;
+}
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    padding-bottom: 60px;
+    background-color:#117ACA ;
+}
+.main {
+    width: 100%;
+    max-width: 600px;
+    background-color:#ffffff ;
+    font-family: sans-serif;
+    color: #4a4a4a;
+    border-radius: 25px;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+.topborder {
+    background-color: #000000
+}
+.two-columns {
+    width: 100%;
+    display: flex;
+}
+.two-columns .column {
+    width: 100%;
+    max-width:200px;
+}
+.two-columns .column2 details {
+    text-align: center;
+    display:flex;
+}
+.details a{
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color:#117ACA;
+    padding: 16px;
+}
