@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    
 }
 table{
     border-spacing: 0;
@@ -27,6 +28,7 @@ img {
     color: #4a4a4a;
     border-radius: 25px;
     box-shadow: 0 0 50px rgb(255, 255, 255);
+    padding-bottom: 25px;
 }
 .topborder {
     background-color: #000000
@@ -45,8 +47,33 @@ img {
 }
 .details a{
     font-weight: bold;
+    font-family: 'Nunito', sans-serif;
     text-decoration: none;
     letter-spacing: 1px;
     color:#117ACA;
     padding: 16px;
+}
+.title {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    padding: 1%;
+}
+.title span {
+    color: rgb(40, 212, 40);
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.breakdowns {
+    padding: 8px;
+    border: 1px solid #117ACA;
+    text-align: center;
+}
+.breakdowns table {
+    border: 1px solid black;
+}
+.breakdowns .breakdown {
+    display: flex;
+    padding:3%;
+    text-align: center;
 }
