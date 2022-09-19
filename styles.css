@@ -36,6 +36,7 @@ img {
 .two-columns {
     width: 100%;
     display: flex;
+    border-bottom: 20px solid #117ACA;
 }
 .two-columns .column {
     width: 100%;
@@ -67,7 +68,7 @@ img {
 .breakdowns {
     border: 1px solid #117ACA;
     text-align: center;
-    padding: 5%;
+    padding: 0px 50px 0px 50px;
     background-color: #117ACA;
     color: white;
 }
@@ -92,4 +93,52 @@ img {
 .breakdowns .breakdown a .icon {
     padding-top: 15px;
     padding-left: 90px;
+}
+.account {
+    text-align: center;
+    background-color: #117ACA;
+    color: white;
+    padding:20px 50px;
+}
+.account table{
+    background-color: white;
+    padding-bottom: 20px;
+    color: black;
+    border-radius: 25px;
+    font-family: 'Nunito', sans-serif;
+    border: 3px solid rgb(126, 218, 241);
+}
+.adetails a {
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid #117ACA;
+    border-radius: 25px;
+    padding:8px;
+    color: #117ACA;
+    font-weight: bold;
+}
+
+.title2 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    padding: 1%;
+}
+.title2 span {
+    color: rgb(40, 212, 40);
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+.footer{
+    width: 100%;
+}
+.footer table {
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(190, 189, 189);
+    text-align: center;
+    padding: 20px 60px 0px 60px;
+    font-size: 13px;
+}
+.botborder {
+    background-color: #000000
 }
