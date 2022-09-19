@@ -142,3 +142,9 @@ img {
 .botborder {
     background-color: #000000
 }
+@media screen and (max-width:600px) {
+    .wrapper {
+        width: 100% !important;
+        max-width: 300px!important;
+    }
+}
