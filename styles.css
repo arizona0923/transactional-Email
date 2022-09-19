@@ -67,7 +67,7 @@ img {
 .breakdowns {
     border: 1px solid #117ACA;
     text-align: center;
-    padding-bottom: 25px;
+    padding: 5%;
     background-color: #117ACA;
     color: white;
 }
@@ -75,6 +75,7 @@ img {
     background-color: white;
     color: black;
     border-radius: 25px;
+    border: 3px solid rgb(126, 218, 241);
 }
 .breakdowns .breakdown {
     display: flex;
@@ -89,4 +90,6 @@ img {
     font-family: 'Nunito', sans-serif;
 }
 .breakdowns .breakdown a .icon {
+    padding-top: 15px;
+    padding-left: 90px;
 }
