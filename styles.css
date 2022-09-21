@@ -17,7 +17,6 @@ img {
 .wrapper {
     width: 100%;
     table-layout: fixed;
-    padding-bottom: 60px;
     background-color:#117ACA ;
 }
 .main {
@@ -28,7 +27,6 @@ img {
     color: #4a4a4a;
     border-radius: 25px;
     box-shadow: 0 0 50px rgb(255, 255, 255);
-    padding-bottom: 25px;
 }
 .topborder {
     background-color: #000000
@@ -146,5 +144,6 @@ img {
     .wrapper {
         width: 100% !important;
         max-width: 300px!important;
+        background-color: #117ACA;
     }
 }
